@@ -120,7 +120,7 @@ public class PhysicsModule : RacecarModule
     {
         if (this.racecar.Hud != null)
         {
-            this.racecar.Hud.UpdatePhysics(this.LinearVelocity.magnitude, this.LinearAccceleration, this.LinearVelocity);
+            this.racecar.Hud.UpdatePhysics(this.LinearVelocity.magnitude, this.LinearAccceleration, this.AngularVelocity);
         }
     }
 
